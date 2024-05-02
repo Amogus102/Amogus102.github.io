@@ -1,0 +1,133 @@
+body{
+    background-color: #F59D8A;
+}
+.firstscreen{
+    display: flex;
+    justify-content: center;
+}
+.player1{
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20%;
+    justify-content: center;
+    font-size: 100px;
+}
+.player2{
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20%;
+    justify-content: center;
+    font-size:  100px; 
+}
+.background{
+    background-color: #99F9FF;
+    width: 1920px;
+    height: 1080px;
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.pole{
+    background-color: #4F31A6;
+    width: 999px;
+    height: 999px;
+    border-radius: 15%;
+    display: grid;
+    grid-template-columns: 333px 333px 333px;
+    grid-template-rows: 333px 333px 333px;
+}
+.pole-knopok{
+    background-color: #E4C2FF;
+    width: 800px;
+    height: 1100px;
+}
+.back{
+    border: 1px solid black;
+    background-color: white;
+    padding: 50px;
+    width: 400px;
+    font-size: 55px;
+    text-align: center;
+    border-radius: 10%;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+.replay{
+    border: 1px solid black;
+    background-color: white;
+    padding: 50px;
+    width: 400px;
+    font-size: 64px;
+    text-align: center;
+    border-radius: 10%;
+    margin-top: 250px;
+    margin-left: 130px;
+}
+.btn{
+    font-size: 100px;
+    height: 333px;
+    width: 333px;
+    text-align: center;
+    color:white;
+}
+.btn1{
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+    border-top-left-radius: 42%;
+}
+.btn2{
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+}
+.btn3{
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+}
+.btn4{
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+.btn5{
+    border: 5px solid white;
+}
+.btn6{
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+}
+.btn7{
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+}
+.btn8{
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+}
+.btn9{
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+}
+.vibor{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 100px;
+}
+.startscreen{
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.krestik{
+    font-size: 150px;
+    margin-left: 100px;
+
+}
+.nolik{
+    font-size: 150px;
+    margin-left: 1800px;
+}
